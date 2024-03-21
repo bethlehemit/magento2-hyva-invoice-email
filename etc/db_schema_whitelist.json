@@ -1,0 +1,10 @@
+{
+    "sales_order": {
+        "column": {
+            "email_invoice": true
+        },
+        "quote": {
+            "email_invoice": true
+        }
+    }
+}

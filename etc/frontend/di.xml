@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Hyva\Checkout\Model\Form\EntityForm\EavAttributeBillingAddressForm">
+        <arguments>
+            <argument name="entityFormModifiers" xsi:type="array">
+                <item name="invoice_email" sortOrder="200" xsi:type="object">BethlehemIT\AdditionalInvoiceEmail\FormModifier\InvoiceEmail</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

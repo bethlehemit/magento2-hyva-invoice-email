@@ -1,0 +1,7 @@
+<config>
+    <preference for="Magento\Sales\Model\Order\Email\Sender\InvoiceSender" type="BethlehemIT\AdditionalInvoiceEmail\Model\InvoiceSender" />
+
+    <type name="Fooman\PdfCustomiser\Block\Pdf\AddressFormatter">
+        <plugin name="pdf_invoice_email" type="BethlehemIT\AdditionalInvoiceEmail\Plugin\AddressFormatterPlugin" sortOrder="1" disabled="false" />
+    </type>
+</config>
